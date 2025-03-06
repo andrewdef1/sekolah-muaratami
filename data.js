@@ -170,16 +170,42 @@ var schools = [
            <a href='' target='_blank'><img src='' width='150'></a><br>`
    },   
    { 
-       name: "TPQ Al Amin",
-       lat: -2.677512558425947,
-       lon: 140.82311336680775, 
+       name: "TPQ Baitul Khoir",
+       lat: -2.6751840849504034,
+       lon: 140.83320206755468, 
        type: "PAUD", 
-       siswa: "13 orang",
-       alamat: "Jl. Bandungan Tami",
+       siswa: "15 orang",
+       alamat: "Jl. Protokol koya Timur",
        gambar: ``,
-       description: `Jl. Bandungan Tami<br>
-              Titik Lokasi : -2.677512558425947,140.82311336680775<br>
-           Jumlah Murid : 13 orang
+       description: `Jl. Protokol koya Timur<br>
+              Titik Lokasi : -2.6751840849504034,140.83320206755468<br>
+           Jumlah Murid : 15 orang
            <a href='' target='_blank'><img src='' width='150'></a><br>`
-   },
+   },   
+   { 
+       name: "TPQ Al Aqsha Skouw",
+       lat: -2.6336534158587774,
+       lon: 140.87989592308696, 
+       type: "PAUD", 
+       siswa: "27 orang",
+       alamat: "Jl. Perbatasan RI – PNG Skouw",
+       gambar: ``,
+       description: `Jl. Perbatasan RI – PNG Skouw<br>
+              Titik Lokasi : -2.6336534158587774,140.87989592308696<br>
+           Jumlah Murid : 27 orang
+           <a href='' target='_blank'><img src='' width='150'></a><br>`
+   },   
+   { 
+      name: "TK CINTAKU LULU",
+      lat: -2.6448203122619622,
+      lon: 140.81028555061516, 
+      type: "TK", 
+      siswa: "- orang",
+      alamat: "Perumahan Rollo Green Diamond Resident Kampung Koya Tengah Distrik Muara Tami",
+      gambar: `<img src='img/cintakululu.jpg' width='520vw' height='400vh'>`,
+      description: `Perumahan Rollo Green Diamond Resident Kampung Koya Tengah Distrik Muara Tami<br>
+             Titik Lokasi : -2.6448203122619622,140.81028555061516<br>
+          Jumlah Murid : - orang<br>
+          <a href='img/cintakululu.jpg' target='_blank'><img src='img/cintakululu.jpg' width='150'></a><br>`
+  },
 ]
