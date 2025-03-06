@@ -207,5 +207,18 @@ var schools = [
              Titik Lokasi : -2.6448203122619622,140.81028555061516<br>
           Jumlah Murid : - orang<br>
           <a href='img/cintakululu.jpg' target='_blank'><img src='img/cintakululu.jpg' width='150'></a><br>`
+  },   
+  { 
+      name: "PAUD SUMBER REZEKI",
+      lat: -2.634828948430384,
+      lon: 140.7768550469427, 
+      type: "PAUD", 
+      siswa: "- orang",
+      alamat: "Jl. Hanurata Kilo IX Holtekamp",
+      gambar: `<img src='img/cintakululu.jpg' width='520vw' height='400vh'>`,
+      description: `Jl. Hanurata Kilo IX Holtekamp<br>
+             Titik Lokasi : -2.634828948430384,140.7768550469427<br>
+          Jumlah Murid : - orang<br>
+          <a href='img/cintakululu.jpg' target='_blank'><img src='img/cintakululu.jpg' width='150'></a><br>`
   },
 ]
