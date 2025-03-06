@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Sebaran Sekolah di Wilayah Distrik Muara Tami</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+
+
+
+    <style>
+        #map { height: 720px; width: 100%; }
+        table {
+            border-collapse: collapse;
+            margin-right: auto; /* Menggeser tabel ke kanan */
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+        td {
+            border: 2px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+        img {
+            vertical-align: middle;
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Peta Sebaran Sekolah di Wilayah Distrik Muara Tami</h2>
+    <table>
+        <tr>
+            <td><img src="red.png" width="20" height="30"></td>
+            <td>PAUD/TK</td>
+        </tr>
+        <tr>
+            <td><img src="yellow.png" width="20" height="30"></td>
+            <td>SD</td>
+        </tr>       
+        <tr>
+            <td><img src="green.png" width="20" height="30"></td>
+            <td>SMP</td>
+        </tr>         
+        <tr>
+            <td><img src="purple.png" width="20" height="30"></td>
+            <td>SMA</td>
+        </tr>
+    </table>
+    <div id="map"></div>
+    <h3>Index Total Sekolah:</h3>
+    <ul>
+        <li>PAUD : <span id="count-paud">0</span></li>
+        <li>TK : <span id="count-tk">0</span></li>
+        <li>SD : <span id="count-sd">0</span></li>
+        <li>SMP : <span id="count-smp">0</span></li>
+        <li>SMA : <span id="count-sma">0</span></li>
+        <!-- <li>Perguruan Tinggi : <span id="count-pt">0</span></li> -->
+    </ul>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
